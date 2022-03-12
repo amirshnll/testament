@@ -22,6 +22,6 @@ jobs:
         coverage: xdebug    
         tools: php-cs-fixer, phpunit
     
-    - name: Update Json Data File
+    - name: Daily death checker
       run:
         php send.php
