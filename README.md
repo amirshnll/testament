@@ -7,6 +7,8 @@ Send Messages after Death - Make a personal will (testament) sender using github
 In this project, we will check your live status with your Github activities. If your github activity was less than one due to your configuration, it will automatically send a message to your subscription list via email.
 <br />
 This message can be your will (testament).
+<br />
+We use cron job, phpmailer library, a gmail account in this project.
 
 <br />
 
