@@ -30,6 +30,8 @@ if(!is_array($daily_commit) && count($daily_commit) < 1) {
 }
 elseif(strtotime($daily_commit[0]) + (86400 * DEATH_BOUND) < strtotime("today UTC")) {
     sendgmail();
+    echo "Testament's mail sent successfully";
+    die();
 }
 
 $dates = array();
@@ -53,3 +55,5 @@ for($i = 1; $i <= DEATH_BOUND; $i++) {
 }
 
 sendgmail();
+echo "Testament's mail sent successfully";
+die();
