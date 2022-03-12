@@ -23,3 +23,8 @@ jobs:
     - name: Test
       run:
         php test.php
+      env:
+        TESTAMENT_CONTENT: ${{ secrets.TESTAMENT_CONTENT }}
+        TESTAMENT_EMAIL_PASSWORD: ${{ secrets.TESTAMENT_EMAIL_PASSWORD }}
+        TESTAMENT_EMAIL_USERNAME: ${{ secrets.TESTAMENT_EMAIL_USERNAME }}
+        TESTAMENT_TEST: ${{ env.TESTAMENT_TEST }}

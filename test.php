@@ -13,7 +13,7 @@ require_once 'github.php';
 sendgmail();
 
 # test github data
-echo count(get_events()) . '<br />';
+echo count(get_events());
 
 # test github secret
 echo getenv("TESTAMENT_TEST");
