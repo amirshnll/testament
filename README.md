@@ -46,4 +46,4 @@ define("SUBSCRIBERS_FILE", "subscribers.json");
 
 
 ## Contribute
-- don't change **config.php** and **subscribers.json**
+- Don't change **config.php** and **subscribers.json**
